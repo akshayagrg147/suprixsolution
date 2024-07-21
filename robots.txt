@@ -1,6 +1,6 @@
 User-agent: *
-Disallow:/about.html
+Disallow:/about
 
-noindex: /about.html
+noindex: /about
 
 Sitemap: https://www.suprixsolution.in/sitemap.xml
