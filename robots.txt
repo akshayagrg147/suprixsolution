@@ -1,6 +1,3 @@
 User-agent: *
-Disallow:/about
-
-noindex: /about
 
 Sitemap: https://www.suprixsolution.in/sitemap.xml
