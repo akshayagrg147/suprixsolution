@@ -1,0 +1,8 @@
+# Ensure the site uses www.
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^suprixsolution.in [NC]
+RewriteRule ^(.*)$ http://www.suprixsolution.in/$1 [L,R=301]
+
+# Ensure the site uses HTTPS.
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.suprixsolution.in/$1 [L,R=301]
